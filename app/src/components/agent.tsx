@@ -33,7 +33,7 @@ export function Agent() {
     setIsLoading(true);
 
     try {
-      const apiResponse = await fetch("http://localhost:3101/api/langbase", {
+      const apiResponse = await fetch("https://last-healeye.onrender.com/api/langbase", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ input: input.trim() })
