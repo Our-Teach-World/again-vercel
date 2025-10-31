@@ -43,7 +43,7 @@ const hospitalDataToolSchema = {
         },
         "timeframe": {
           "type": "string",
-          "description": "Analysis timeframe: 7days, 15days, 30days"
+          "description": "is timeframe: 7days, 15days, 30days"
         }
       },
       "additionalProperties": false
