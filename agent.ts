@@ -2,6 +2,10 @@ import dotenv from "dotenv";
 dotenv.config();
 import { Langbase } from "langbase";
 
+
+
+
+
 // Weather and AQI data fetching tool
 const weatherAQIToolSchema = {
   "type": "function" as const,

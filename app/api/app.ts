@@ -22,6 +22,16 @@ app.get('/', c => {
 	});
 });
 
+
+app.get('/AK', c => {
+	return c.json({
+		message: 'Ashis',
+		version: '1.0.0'
+	});
+});
+
+
+
 // Register agent endpoint
 registerLangbaseEndpoint(app);
 
